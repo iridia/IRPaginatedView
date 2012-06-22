@@ -344,8 +344,10 @@
 - (void) scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
 
 	if (self.numberOfPages)
-	if ([self.delegate respondsToSelector:@selector(paginatedView:didShowView:atIndex:)])
+
+	if ([self.delegate conformsToProtocol:@protocol(IRPaginatedViewDelegate)] && [self.delegate respondsToSelector:@selector(paginatedView:didShowView:atIndex:)]) {
 		[self.delegate paginatedView:self didShowView:[self existingPageAtIndex:self.currentPage] atIndex:self.currentPage];
+	}
 	
 	[self removeOffscreenViews];
 
@@ -386,9 +388,10 @@
 	}
 		
 	[self removeOffscreenViews];
-		
-	[self.delegate paginatedView:self didShowView:[self existingPageAtIndex:self.currentPage] atIndex:self.currentPage];
-	
+
+	if ([self.delegate conformsToProtocol:@protocol(IRPaginatedViewDelegate)] && [self.delegate respondsToSelector:@selector(paginatedView:didShowView:atIndex:)]) {
+		[self.delegate paginatedView:self didShowView:[self existingPageAtIndex:self.currentPage] atIndex:self.currentPage];
+	}
 }
 
 - (UIView *) existingPageAtIndex:(NSUInteger)anIndex {
