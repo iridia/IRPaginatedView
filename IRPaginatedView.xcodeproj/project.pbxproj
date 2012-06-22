@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFDB8F9115944C6600FA7E9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDB8F9015944C6600FA7E9B /* Foundation.framework */; };
+		FFDB8F9615944C6600FA7E9B /* IRPaginatedView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FFDB8F9515944C6600FA7E9B /* IRPaginatedView.h */; };
+		FFDB8F9815944C6600FA7E9B /* IRPaginatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDB8F9715944C6600FA7E9B /* IRPaginatedView.m */; };
+		FFDB8FA715944DB600FA7E9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDB8FA615944DB600FA7E9B /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFDB8F8B15944C6600FA7E9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				FFDB8F9615944C6600FA7E9B /* IRPaginatedView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FFDB8F8D15944C6600FA7E9B /* libIRPaginatedView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIRPaginatedView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDB8F9015944C6600FA7E9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFDB8F9415944C6600FA7E9B /* IRPaginatedView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRPaginatedView-Prefix.pch"; sourceTree = "<group>"; };
+		FFDB8F9515944C6600FA7E9B /* IRPaginatedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRPaginatedView.h; path = IRPaginatedView/IRPaginatedView.h; sourceTree = "<group>"; };
+		FFDB8F9715944C6600FA7E9B /* IRPaginatedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IRPaginatedView.m; path = IRPaginatedView/IRPaginatedView.m; sourceTree = "<group>"; };
+		FFDB8FA615944DB600FA7E9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDB8F8A15944C6600FA7E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDB8F9115944C6600FA7E9B /* Foundation.framework in Frameworks */,
+				FFDB8FA715944DB600FA7E9B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFDB8F8215944C6600FA7E9B = {
+			isa = PBXGroup;
+			children = (
+				FFDB8F9515944C6600FA7E9B /* IRPaginatedView.h */,
+				FFDB8F9715944C6600FA7E9B /* IRPaginatedView.m */,
+				FFDB8F9315944C6600FA7E9B /* Supporting Files */,
+				FFDB8F8F15944C6600FA7E9B /* Frameworks */,
+				FFDB8F8E15944C6600FA7E9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDB8F8E15944C6600FA7E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDB8F8D15944C6600FA7E9B /* libIRPaginatedView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDB8F8F15944C6600FA7E9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFDB8F9015944C6600FA7E9B /* Foundation.framework */,
+				FFDB8FA615944DB600FA7E9B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFDB8F9315944C6600FA7E9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFDB8F9415944C6600FA7E9B /* IRPaginatedView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = IRPaginatedView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDB8F8C15944C6600FA7E9B /* IRPaginatedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDB8F9B15944C6600FA7E9B /* Build configuration list for PBXNativeTarget "IRPaginatedView" */;
+			buildPhases = (
+				FFDB8F8915944C6600FA7E9B /* Sources */,
+				FFDB8F8A15944C6600FA7E9B /* Frameworks */,
+				FFDB8F8B15944C6600FA7E9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRPaginatedView;
+			productName = IRPaginatedView;
+			productReference = FFDB8F8D15944C6600FA7E9B /* libIRPaginatedView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDB8F8415944C6600FA7E9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FFDB8F8715944C6600FA7E9B /* Build configuration list for PBXProject "IRPaginatedView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFDB8F8215944C6600FA7E9B;
+			productRefGroup = FFDB8F8E15944C6600FA7E9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDB8F8C15944C6600FA7E9B /* IRPaginatedView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDB8F8915944C6600FA7E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDB8F9815944C6600FA7E9B /* IRPaginatedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFDB8F9915944C6600FA7E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFDB8F9A15944C6600FA7E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDB8F9C15944C6600FA7E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IRPaginatedView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRPaginatedView/IRPaginatedView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FFDB8F9D15944C6600FA7E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IRPaginatedView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRPaginatedView/IRPaginatedView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDB8F8715944C6600FA7E9B /* Build configuration list for PBXProject "IRPaginatedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDB8F9915944C6600FA7E9B /* Debug */,
+				FFDB8F9A15944C6600FA7E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDB8F9B15944C6600FA7E9B /* Build configuration list for PBXNativeTarget "IRPaginatedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDB8F9C15944C6600FA7E9B /* Debug */,
+				FFDB8F9D15944C6600FA7E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDB8F8415944C6600FA7E9B /* Project object */;
+}
